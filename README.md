@@ -46,6 +46,7 @@ Applications (installed with Homebrew Cask):
   - Vagrant (+ Vagrant Manager)
   - VirtualBox
   - VLC
+  - mysqlworkbench
 
 Packages (installed with Homebrew):
 

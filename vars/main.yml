@@ -18,65 +18,86 @@ homebrew_installed_packages:
   - autoconf
   - bash-completion
   - boot2docker
+  - couchdb
   - docker
+  - elasticsearch
   - gettext
+  - gifsicle
   - git
   - go
   - gpg
   - iperf
   - libevent
   - packer
+  - postgresql
   - python
   - sqlite
   - mysql
+  - node
   - npm
-  - php56
-  - php56-xdebug
+  # - php56
+  # - php56-xdebug
+  - rethinkdb
   - ssh-copy-id
   - cowsay
-  - ios-sim
-  - readline
-  - subversion
-  - kdiff3
+  # - ios-sim
+  # - readline
+  # - subversion
+  # - kdiff3
   - openssl
   - pv
-  - drush
+  # - drush
   - wget
   - wrk
-  - brew-cask
+  # - brew-cask
+  - httpie
+  #  - virtualenvwrapper
+  - svg2png
+  - optipng
+  - advancecomp
+  - montage
+
 
 homebrew_taps:
-  - caskroom/cask
+  # - caskroom/cask
   - homebrew/binary
   - homebrew/dupes
-  - homebrew/php
+  # - homebrew/php
   - homebrew/versions
+
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - adium
-  - bettertouchtool
+  - github-desktop
+  - pycharm
+  # - adium
+  - ngrok
+  # - bettertouchtool
   - google-chrome
   - dropbox
+  - filezilla
   - fing
   - firefox
   - handbrake
-  - karabiner
-  - limechat
-  - licecap
-  - macvim
+  # - karabiner
+  # - limechat
+  # - licecap
+  #  - macvim state=absent
   - menumeters
+  - mysqlworkbench
   - nvalt
   - sequel-pro
   - skype
-  - skitch
-  - seil
+  #  - sketch
+  # - skitch
+  # - seil
+  - sourcetree
   - sublime-text # Note - Sublime Text 2 only, at this time...
   - textmate
   - timemachineeditor
-  - tower
-  - transmit
+  # - tower
+  # - transmit
   - vagrant
   - vagrant-manager
-  - vlc
+  # - vlc
   - virtualbox
